@@ -1,0 +1,203 @@
+.home-sec .home-content .home-p::after {
+    content: "|";
+    color: var(--main-color);
+    animation: moving 4.5s 1.8s ease-in infinite;
+  }
+  @keyframes moving {
+    0% {
+      content: "|";
+    }
+  
+    2% {
+      content: "De|";
+    }
+  
+    4% {
+      content: "Dev|";
+    }
+  
+    6% {
+      content: "Deve|";
+    }
+  
+    8% {
+      content: "Devel|";
+    }
+  
+    10% {
+      content: "Develo|";
+    }
+  
+    12% {
+      content: "Develop|";
+    }
+  
+    14% {
+      content: "Develope|";
+    }
+  
+    16% {
+      content: "Developer|";
+    }
+  
+    18% {
+      content: "|";
+    }
+  
+    20% {
+      content: "D|";
+    }
+  
+    22% {
+      content: "De|";
+    }
+  
+    24% {
+      content: "Des|";
+    }
+  
+    26% {
+      content: "Desi|";
+    }
+  
+    28% {
+      content: "Desig|";
+    }
+  
+    30% {
+      content: "Design|";
+    }
+  
+    32% {
+      content: "Designe|";
+    }
+  
+    34% {
+      content: "Designer|";
+    }
+  
+    36% {
+      content: "|";
+    }
+  
+    38% {
+      content: "F|";
+    }
+  
+    40% {
+      content: "Fr|";
+    }
+  
+    42% {
+      content: "Fre|";
+    }
+  
+    44% {
+      content: "Free|";
+    }
+  
+    46% {
+      content: "Freel|";
+    }
+  
+    48% {
+      content: "Freela|";
+    }
+  
+    50% {
+      content: "Freelan|";
+    }
+  
+    52% {
+      content: "Freelanc|";
+    }
+  
+    54% {
+      content: "Freelance|";
+    }
+  
+    56% {
+      content: "Freelancer|";
+    }
+  
+    58% {
+      content: "|";
+    }
+  
+    60% {
+      content: "P|";
+    }
+  
+    62% {
+      content: "Ph|";
+    }
+  
+    64% {
+      content: "Pho|";
+    }
+  
+    66% {
+      content: "Phot|";
+    }
+  
+    68% {
+      content: "Photo|";
+    }
+  
+    70% {
+      content: "Photog|";
+    }
+  
+    72% {
+      content: "Photogr|";
+    }
+  
+    74% {
+      content: "Photogra|";
+    }
+  
+    76% {
+      content: "Photograp|";
+    }
+  
+    78% {
+      content: "Photograph|";
+    }
+  
+    80% {
+      content: "Photographe|";
+    }
+  
+    82% {
+      content: "Photographer|";
+    }
+  
+    100% {
+      content: "|";
+    }
+  }
+  /*navbar-colpse*/
+  @media screen and (min-width: 320px) and (max-width: 767px) {
+
+  body:has(input:checked) {
+    .home-sec nav ul  .home-link{ 
+      display: block !important;
+      margin-left: -2rem !important;
+    }
+    .home-sec nav ul  .about-link{ 
+      display: block !important;
+    }
+    .home-sec nav ul  .services-link{ 
+      display: block !important;
+    }
+    .home-sec nav ul  .work-link{ 
+      display: block !important;
+    }
+    .home-sec nav ul  .blog-link{ 
+      display: block !important;
+    }
+    .home-sec nav ul  .contact-link{ 
+      display: block !important;
+    }
+  }
+}

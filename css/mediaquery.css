@@ -1,0 +1,114 @@
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  /*home-section*/
+  .home-sec .logo-nav-dev {
+    font-size: 1.3rem !important;
+  }
+  .home-sec nav ul li {
+    padding: 0rem 0.2rem !important;
+  }
+  .home-sec nav ul li a {
+    font-size: 0.75rem !important;
+  }
+  /* services-section */
+  .services-sec .icon {
+    border: 10px solid #0078ff !important;
+    width: 25%;
+    height: 10px;
+    margin: auto;
+    border-radius: 48%;
+  }
+  /* office-section */
+  .office-sec {
+    height: 150vh !important;
+  }
+
+  .office-sec .icon {
+    border: 10px solid #eeecec !important;
+    width: 10% !important;
+    margin: auto !important;
+    border-radius: 48% !important;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  h5 {
+    font-size: 1.5rem !important;
+  }
+  header h3 {
+    font-size: 2rem;
+  }
+  header .parg {
+    font-size: 1rem;
+    padding: 0 !important;
+  }
+  /* home-section */
+  .home-sec .home-content h1 {
+    font-size: 1.65rem;
+  }
+  .home-sec .home-content p {
+    font-size: 1.2rem;
+  }
+  .home-sec nav ul  .lines{
+    display: block !important;
+  }
+  .home-sec nav ul  .home-link{ 
+    display: none !important;
+  }
+  .home-sec nav ul  .about-link{ 
+    display: none !important;
+  }
+  .home-sec nav ul  .services-link{ 
+    display: none !important;
+  }
+  .home-sec nav ul  .work-link{ 
+    display: none !important;
+  }
+  .home-sec nav ul  .blog-link{ 
+    display: none !important;
+  }
+  .home-sec nav ul  .contact-link{ 
+    display: none !important;
+  }
+  /* about-section */
+  .about-sec .about-img .about-ul {
+    margin-left: -1.9rem;
+    padding-top: 2rem;
+  }
+  .about-sec .article-about p {
+    padding-right: 0 !important;
+  }
+  /* services-section */
+  .services-sec .icon {
+    border: 10px solid #0078ff !important;
+    width: 25% !important;
+    height: 80px !important;
+    margin: auto;
+    border-radius: 48%;
+  }
+  /* office-section */
+  .office-sec {
+    height: 150vh !important;
+  }
+
+  .office-sec .icon {
+    border: 10px solid #eeecec !important;
+    width: 30% !important;
+    margin: auto !important;
+    border-radius: 48% !important;
+  }
+  /* portiflio-sec */
+  .work-sec .port,
+  .sort {
+    font-size: 1rem !important;
+  }
+  /* contact-sec */
+  .con-sec {
+    padding: 0.5rem !important;
+  }
+  .con-sec p {
+    padding-right: 0 !important;
+  }
+  .contact-sec {
+    padding: 1.2rem !important;
+  }
+}
